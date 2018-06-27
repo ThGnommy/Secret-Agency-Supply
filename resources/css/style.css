@@ -64,13 +64,11 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 0.25rem;
-
 }
 
 h2 {
   font-size: 2rem;
   font-weight: bold;
-
 }
 
 nav {
@@ -162,7 +160,20 @@ footer {
 
 @media only screen and (max-width: 470px) {
 
+  .product {
+    width: 50%;
+  }
 
+  h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding-bottom: 0.25rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
